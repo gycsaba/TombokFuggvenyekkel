@@ -19,6 +19,23 @@ public class Penzfeldobas {
     //static PENZ[] penzt= {PENZ.IRAS,PENZ.IRAS,PENZ.FEJ,PENZ.FEJ,PENZ.FEJ,PENZ.IRAS,PENZ.FEJ,PENZ.FEJ,PENZ.FEJ,PENZ.FEJ,PENZ.IRAS,PENZ.IRAS,PENZ.FEJ,PENZ.IRAS,PENZ.FEJ,PENZ.FEJ,PENZ.IRAS,PENZ.IRAS,PENZ.FEJ,PENZ.FEJ,PENZ.IRAS,PENZ.IRAS,PENZ.FEJ,PENZ.FEJ,PENZ.FEJ,PENZ.IRAS,PENZ.FEJ,PENZ.IRAS,PENZ.FEJ,PENZ.IRAS,PENZ.FEJ,PENZ.IRAS,PENZ.FEJ,PENZ.FEJ,PENZ.FEJ,PENZ.FEJ,PENZ.FEJ,PENZ.FEJ,PENZ.IRAS,PENZ.IRAS,PENZ.FEJ,PENZ.FEJ,PENZ.IRAS,PENZ.FEJ,PENZ.FEJ,PENZ.IRAS,PENZ.FEJ,PENZ.FEJ,PENZ.IRAS,PENZ.IRAS,PENZ.FEJ};
   
     /**
+     * Megszámolja, hogy a penzt tömben mennyi a fej dobások száma
+     * Fej = 1
+     * @return A fej dobások száma
+     */
+    static int getFejDb() { 
+        return 0;
+    }
+     /**
+     * Megszámolja, hogy a penzt tömben mennyi az írás dobások száma
+     * Írás = 0
+     * @return Az írás dobások száma
+     */
+
+    static int getIrasDb() {
+        return 0;
+    }
+    /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
