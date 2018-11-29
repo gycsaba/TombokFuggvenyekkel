@@ -43,7 +43,12 @@ public class Penzfeldobas {
     static int getDb(PENZ penz) {
         return 0;
     }
-    
+    /**
+     * Feltölti a tömböt véletlen pénzdobásokkal
+     */
+    static void penzfeldobas() {
+        return ;
+    }
     /**
      * @param args the command line arguments
      */
