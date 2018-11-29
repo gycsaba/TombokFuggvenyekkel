@@ -9,8 +9,15 @@ package penzfeldobas;
  *
  * @author gycsaba
  */
+enum PENZ {IRAS,FEJ};
 public class Penzfeldobas {
 
+    //Pénzfeldobások eredményeit tároló tömb. 1->FEJ 0->IRÁS
+    static int[] penzt= {0,0,1,1,1,0,1,1,1,1,0,0,1,0,1,1,0,0,1,1,0,0,1,1,1,0,1,0,1,0,1,0,1,1,1,1,1,1,0,0,1,1,0,1,1,0,1,1,0,0,1};
+    
+    //Ugyan az a tömb enum tömb elem típussal
+    //static PENZ[] penzt= {PENZ.IRAS,PENZ.IRAS,PENZ.FEJ,PENZ.FEJ,PENZ.FEJ,PENZ.IRAS,PENZ.FEJ,PENZ.FEJ,PENZ.FEJ,PENZ.FEJ,PENZ.IRAS,PENZ.IRAS,PENZ.FEJ,PENZ.IRAS,PENZ.FEJ,PENZ.FEJ,PENZ.IRAS,PENZ.IRAS,PENZ.FEJ,PENZ.FEJ,PENZ.IRAS,PENZ.IRAS,PENZ.FEJ,PENZ.FEJ,PENZ.FEJ,PENZ.IRAS,PENZ.FEJ,PENZ.IRAS,PENZ.FEJ,PENZ.IRAS,PENZ.FEJ,PENZ.IRAS,PENZ.FEJ,PENZ.FEJ,PENZ.FEJ,PENZ.FEJ,PENZ.FEJ,PENZ.FEJ,PENZ.IRAS,PENZ.IRAS,PENZ.FEJ,PENZ.FEJ,PENZ.IRAS,PENZ.FEJ,PENZ.FEJ,PENZ.IRAS,PENZ.FEJ,PENZ.FEJ,PENZ.IRAS,PENZ.IRAS,PENZ.FEJ};
+  
     /**
      * @param args the command line arguments
      */
