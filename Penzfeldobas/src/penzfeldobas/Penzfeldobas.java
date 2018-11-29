@@ -67,6 +67,15 @@ public class Penzfeldobas {
         return 0;
     }
     /**
+     * Adott pénzérme esetén mi a leghosszabb ismétlődés hossza
+     * @param penz Adott pénzérme
+     * @return Az ismétlődés hossza
+     */ 
+    static int getLeghosszabSorozat(PENZ penz) {
+        return 0;
+    }
+    
+    /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
