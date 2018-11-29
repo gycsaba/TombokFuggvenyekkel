@@ -50,6 +50,23 @@ public class Penzfeldobas {
         return ;
     }
     /**
+     * Adott pénzérme keresettHossz hosszan hányszor van a sorozatban
+     * @param keresetHossz Az adott pénzérme ennyiszer van egymás után
+     * @param penz Adott pénzérme
+     * @return Hányszor van adott pénzérme keresettHossz hosszan a sorozatban
+     */
+    static int getHosszHosszuSorozat(int keresetHossz, PENZ penz) {
+        return 0;
+    }
+    /**
+     * A két pénzérme együtt keresettHossz hosszan hányszor van a sorozatban
+     * @param keresetHossz Az adott pénzérme ennyiszer van egymás után
+     * @return Hányszor van a két pénzérme keresettHossz hosszan a sorozatban
+     */
+    static int getHosszHosszuSorozat(int keresettHossz) {
+        return 0;
+    }
+    /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
