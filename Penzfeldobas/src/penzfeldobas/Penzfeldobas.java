@@ -36,6 +36,15 @@ public class Penzfeldobas {
         return 0;
     }
     /**
+     * Megszámolja, hogy a tömbben az adott dobásból mennyi van
+     * @param penz 1 ha fej, 0 ha írás
+     * @return A tömbben hányszor van penz
+     */
+    static int getDb(PENZ penz) {
+        return 0;
+    }
+    
+    /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
